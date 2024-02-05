@@ -22,8 +22,9 @@ export default function Page() {
       "Give it another thought!",
       "Are you absolutely certain?",
       "This is A MISTAKE!",
-      "BABE, I GIVE YOU MONEY!",
-      "Don't be so cold!",
+      "BABE, I GIVE YOU $100!",
+      "No no, I GIVE YOU $10,000!",
+      "Pleaseeeee, I give you my whole life!",
       "I promise to love you even more?",
       "Wouldn't you reconsider?",
       "Really really final answer?",
@@ -35,7 +36,10 @@ export default function Page() {
       "No more beef for you!!",
       "Just kidding, press yes la babe?",
       "PLEASEEEEEEE?",
-      "You're breaking my heart ;(",
+      "THAT's IT",
+      "YOU LEAVE ME NO CHOICE",
+      "I SHALL INVOKE THE POWER OF THE NEVER-NO",
+      "I ain't taking NO as an answer muahaha ;(",
     ];
 
     return phrases[Math.min(noCount, phrases.length - 1)];
@@ -55,7 +59,7 @@ export default function Page() {
         {yesPressed ? (
           <>
             <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" />
-            <div className="text-container">Ok yay!! i LOVE YOU BABE!</div>
+            <div className="text-container">Yay!!! I LOVE YOU BABE!</div>
           </>
         ) : (
           <>
