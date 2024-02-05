@@ -12,21 +12,29 @@ export default function Page() {
 
   const getNoButtonText = () => {
     const phrases = [
-      "No",
+      "Seriously, Babe",
       "Are you sure?",
       "Really sure?",
-      "Think again!",
-      "Last chance!",
-      "Surely not?",
-      "You might regret this!",
+      "Sheryl, please!",
+      "Oi, how dare you!",
+      "I'm your HUSBAND!!?",
+      "Bruh, c'mon!",
       "Give it another thought!",
       "Are you absolutely certain?",
-      "This could be a mistake!",
-      "Have a heart!",
+      "This is A MISTAKE!",
+      "BABE, I GIVE YOU MONEY!",
       "Don't be so cold!",
-      "Change of heart?",
+      "I promise to love you even more?",
       "Wouldn't you reconsider?",
-      "Is that your final answer?",
+      "Really really final answer?",
+      "Stop, I'm getting tired.",
+      "Please, please pretty please?",
+      "With a flower on top?",
+      "Don't you love me?",
+      "Why are you doing this Sheryl?",
+      "No more beef for you!!",
+      "Just kidding, press yes la babe?",
+      "PLEASEEEEEEE?",
       "You're breaking my heart ;(",
     ];
 
@@ -47,7 +55,7 @@ export default function Page() {
         {yesPressed ? (
           <>
             <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" />
-            <div className="text-container">Ok yay!!!</div>
+            <div className="text-container">Ok yay!! i LOVE YOU BABE!</div>
           </>
         ) : (
           <>
